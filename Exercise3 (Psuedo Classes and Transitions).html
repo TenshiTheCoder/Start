@@ -19,6 +19,11 @@
     height: 30px;
     width: 140px;
     cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  
+  .cart:hover{
+    background-color: yellow;
   }
   .Sign {
     background-color: rgb(46, 164, 79);
@@ -30,7 +35,11 @@
     border: none;
     height: 40px;
     width: 90px;
+    transition: box-shadow 0.15s;
+  }
 
+  .Sign:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
   }
   .Get {
     background-color: rgb(121, 82, 179);
@@ -42,6 +51,10 @@
     border-radius: 4px;
     cursor: pointer;
     margin-right: 6px;
+    transition: background-color 0.15s;
+    }
+    .Get:hover{
+      background-color: rgba(196, 6, 196, 0.514);
     }
   .Download {
     background-color: white;
@@ -54,8 +67,15 @@
     border-style: solid;
     border-radius: 4px;
     cursor: pointer;
-
+    transition: background-color 0.15s, 
+    color 0.15s;
   }
+
+  .Download:hover {
+    background-color: grey;
+    color: white;
+  }
+
   .Apply {
     background-color: rgb(10, 102, 194);
     color: white;
@@ -67,7 +87,13 @@
     font-weight: bold;
     cursor: pointer;
     margin-right: 8px;
+    transition: background-color 0.15s;
   }
+
+  .Apply:hover{
+    background-color: rgba(9, 9, 139, 0.658);
+  }
+
   .Save {
     background-color: white;
     color: rgb(10, 102, 194);
@@ -80,7 +106,15 @@
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.15s,
+    border-width 0.15s;
   }
+
+  .Save:hover {
+    background-color: rgba(100, 100, 200, 0.25);
+    border-width: 2px;
+  }
+
 </style>
 
 <button class="Request-button">
