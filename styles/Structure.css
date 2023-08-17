@@ -1,0 +1,23 @@
+p {
+  font-family: arial;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.model {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.order 
+{
+color: grey;
+font-family: Arial;
+}
+
+.delivery {
+  text-decoration: underline;
+}
